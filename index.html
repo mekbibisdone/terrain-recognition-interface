@@ -1,12 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Terrain recognition</title>
+    <script
+      type="module"
+      src="https://gradio.s3-us-west-2.amazonaws.com/4.21.0/gradio.js"
+    ></script>
+    <link rel="stylesheet" href="./src/style.css">
   </head>
   <body>
+    <h1>Terrain Recognition</h1>
+    <gradio-app src="https://mekbib-terrain.hf.space"></gradio-app>
     <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
